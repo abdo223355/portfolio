@@ -370,21 +370,21 @@ export const education: EducationItem = {
 
 export const certifications: CertificationItem[] = [
   {
-    id: "cert-dataquest",
-    title: "Data Science",
-    issuer: "Dataquest.io",
+    id: "cert-dotpy-ds-ai",
+    title: "Data Science & AI",
+    issuer: "DotPy",
     year: "2026",
-    credentialUrl: "", // Configurable
-    verificationUrl: "", // Configurable
+    credentialUrl: "",
+    verificationUrl: "",
     isConfigurable: true
   },
   {
-    id: "cert-google",
-    title: "Google Data Analytics",
-    issuer: "Google",
+    id: "cert-deeplearning-ai-nn",
+    title: "Neural Networks and Deep Learning",
+    issuer: "DeepLearning.AI (Andrew Ng)",
     year: "2026",
-    credentialUrl: "", // Configurable
-    verificationUrl: "", // Configurable
+    credentialUrl: "",
+    verificationUrl: "",
     isConfigurable: true
   },
   {
@@ -392,8 +392,26 @@ export const certifications: CertificationItem[] = [
     title: "Machine Learning",
     issuer: "IBM",
     year: "2026",
-    credentialUrl: "", // Configurable
-    verificationUrl: "", // Configurable
+    credentialUrl: "",
+    verificationUrl: "",
+    isConfigurable: true
+  },
+  {
+    id: "cert-dataquest",
+    title: "Data Science",
+    issuer: "Dataquest.io",
+    year: "2026",
+    credentialUrl: "",
+    verificationUrl: "",
+    isConfigurable: true
+  },
+  {
+    id: "cert-google",
+    title: "Google Data Analytics",
+    issuer: "Google",
+    year: "2026",
+    credentialUrl: "",
+    verificationUrl: "",
     isConfigurable: true
   }
 ];
